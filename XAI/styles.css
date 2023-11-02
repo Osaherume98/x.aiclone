@@ -1,0 +1,236 @@
+* *,
+* > * {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  /* margin: 0; */
+  /* padding: 0; */
+  font-size: 1.1rem;
+}
+
+.container {
+  border: 2px solid red;
+  width: 100%;
+  height: 100%;
+  /* padding: 0; */
+  /* margin: 0; */
+}
+
+.section-left {
+  background: url(image/bg_square_small.webp);
+  height: 100vh;
+  width: 40vw;
+  background-color: #000;
+  opacity: 0.9;
+  position: fixed;
+  animation-name: amime;
+  animation-duration: 150s;
+  animation-timing-function: linear;
+}
+
+@keyframes star {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-5000px);
+  }
+}
+
+img {
+  padding: 5rem;
+  width: 15rem;
+}
+.twitter {
+  height: 12rem;
+  width: 12rem;
+  margin-left: -5rem;
+}
+
+.section-right {
+  /* width: 80vw; */
+  padding: 4rem;
+  margin: 1rem 1rem 1rem calc(40vw + 1rem);
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: " Saira Condensed", sans-serif;
+  font-weight: 500px;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2.3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-family: "Saira Condensed", sans-serif;
+  font-weight: 500px;
+  line-height: 1.2;
+  color: #2d2d2d;
+}
+
+small {
+  color: #7a7a7a;
+  font-size: 0.875em;
+  font-family: "Saira Condensed ", sans-serif;
+}
+
+strong {
+  font-weight: bolder;
+}
+p {
+  margin-top: 0px;
+  margin-bottom: 1rem;
+  font-size: 1.9rem;
+  line-height: 1.8;
+}
+
+a:active,
+a:visited {
+  color: #2d2d2d;
+}
+
+a:focus {
+  color: #2d2d2d;
+}
+
+a:hover {
+  color: #2d2d2d;
+  text-decoration: none;
+}
+
+.crews {
+  padding: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 1.5rem;
+  gap: 1.8rem;
+}
+
+.crew-members {
+  display: flex;
+  width: 28.3rem;
+  background: #f0ebea;
+  padding: 0.75rem;
+  height: 8rem;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+  align-items: center;
+  border-radius: 8px;
+  transition: all;
+  font-size: 1.8rem;
+}
+
+.crew-members .img {
+  width: 5.5rem;
+  height: 5.5rem;
+  border-radius: 100%;
+  margin-right: 1.5rem;
+  background-size: 3rem;
+  background: url(/image/team.webp);
+}
+.crew-members .img.img-1 {
+  background-position-y: -6rem;
+  background-position-x: -0.5rem;
+}
+.crew-members .img.img-2 {
+  background-position-y: -12.5rem;
+  background-position-x: -0.5rem;
+}
+.crew-members .img.img-3 {
+  background-position-y: -18.2rem;
+  background-position-x: -0.5rem;
+}
+.crew-members .img.img-4 {
+  background-position-y: -24rem;
+  background-position-x: -0.5;
+}
+.crew-members .img.img-5 {
+  background-position-y: -30rem;
+  background-position-x: -0.5rem;
+}
+.crew-members .img.img-6 {
+  background-position-y: -36rem;
+  background-position-x: -0.5rem;
+}
+.crew-members .img.img-7 {
+  background-position-y: -42rem;
+  background-position-x: -0.5rem;
+}
+.crew-members .img.img-8 {
+  background-position-y: -48.5rem;
+  background-position-x: -0.1rem;
+}
+.crew-members .img.img-9 {
+  background-position-y: -54rem;
+  background-position-x: -0.3rem;
+}
+.crew-members .img.img-10 {
+  background-position-y: -60rem;
+  background-position-x: -0.5rem;
+}
+.crew-members .img.img-11 {
+  background-position-y: -66rem;
+  background-position-x: -0.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-family: " Saira Condensed", sans-serif;
+  font-weight: 500;
+  line-height: 1.8;
+  color: #2d2d2d;
+}
+
+span {
+  color: #fff;
+}
+
+.display-3 {
+  font-size: 5rem;
+  line-height: 1.2;
+  font-weight: 600;
+  padding-top: 25rem;
+}
+.auto {
+  text-align: center;
+}
+
+.column :hover {
+  background-color: black;
+  color: white;
+  transition: 0.8s ease;
+}
+.bird:before {
+  content: url(image/twitter-24.ico);
+}
+
+footer {
+  display: flex;
+  margin-top: 3rem;
+}
+.bird {
+  padding-top: 3rem;
+  font-size: 1.5rem;
+}
+
+.footer {
+  flex: 0 0 auto;
+  width: 100%;
+}
+.logo {
+  width: 5px;
+  height: 5px;
+  background-image: url(image/jg-sN_dhTulObGWYYIWOWvvGEazF2NCJ2E4typSAxnM.png);
+  background-size: 100% 100%;
+}
